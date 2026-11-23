@@ -1,0 +1,76 @@
+{
+ "stats": {
+  "packages": 3000,
+  "packages_ok": 2992,
+  "tools": 34691,
+  "packages_with_tools": 2019,
+  "download_error": 8
+ },
+ "rules": {
+  "steer.always": {
+   "tools": 4035,
+   "packages": 798
+  },
+  "cap.fs-write": {
+   "tools": 359,
+   "packages": 281
+  },
+  "cap.exec": {
+   "tools": 306,
+   "packages": 229
+  },
+  "size.long-description": {
+   "tools": 259,
+   "packages": 82
+  },
+  "cap.network": {
+   "tools": 153,
+   "packages": 104
+  },
+  "secret.path": {
+   "tools": 84,
+   "packages": 48
+  },
+  "conceal.silent": {
+   "tools": 27,
+   "packages": 21
+  },
+  "xtool.foreign-directive": {
+   "tools": 11,
+   "packages": 11
+  },
+  "priority.hijack": {
+   "tools": 6,
+   "packages": 6
+  },
+  "conceal.user": {
+   "tools": 6,
+   "packages": 6
+  },
+  "shadow.other-tool": {
+   "tools": 5,
+   "packages": 5
+  },
+  "argument.override": {
+   "tools": 2,
+   "packages": 2
+  },
+  "unicode.invisible": {
+   "tools": 2,
+   "packages": 2
+  },
+  "markup.hidden-tag": {
+   "tools": 1,
+   "packages": 1
+  },
+  "olive.patterns.injection": {
+   "tools": 1,
+   "packages": 1
+  }
+ },
+ "packages_by_max_severity": {
+  "low": 1038,
+  "high": 82,
+  "medium": 9
+ }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+decls/
+mcpb/
+registry.json
+results/re/hash_mismatch_detail.json
+results/re/mcpb_downloads.json
